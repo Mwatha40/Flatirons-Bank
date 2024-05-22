@@ -25,6 +25,7 @@ function AddTransactionForm({onSubmission}) {
   function handleChange(event){
     setFormData({...formData,[event.target.name]:event.target.value})
   }
+  
   return (
     <div className="ui segment">
       <form className="ui form">
