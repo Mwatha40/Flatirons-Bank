@@ -4,6 +4,7 @@ import Transaction from "./Transaction";
 import TransactionsList from "./TransactionsList";
 import AddTransactionForm from "./AddTransactionForm";
 import Search from "./Search";
+
 function App() {
   const [transactions, setTransactions]= useState([])
  useEffect(()=>{
@@ -13,6 +14,7 @@ function App() {
  },[])
 console.log(transactions)
 
+  
 function handleUpdate(newTransaction){
   console.log(newTransaction)
 
