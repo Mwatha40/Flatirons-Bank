@@ -9,7 +9,7 @@ function AccountContainer() {
   const [searchTerm, setSearchTerm] = useState("");
   return (
     <div>
-      {/* <Search onSearching={handleSearching}/> *//}
+      {/* <Search onSearching={handleSearching}/> */}
       <AddTransactionForm />
       <TransactionsList />
     </div>
